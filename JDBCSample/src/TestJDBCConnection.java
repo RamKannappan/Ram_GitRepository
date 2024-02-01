@@ -33,9 +33,9 @@ public class TestJDBCConnection {
             ps.setFloat(3, esalary);
             int x = ps.executeUpdate();
             if(x > 0) {
-                System.out.println("Inserted.");
+                System.out.println("Inserted 123.");
             }else {
-                System.out.println("Not Inserted.");
+                System.out.println("Not Inserted 123.");
             }
         } catch (SQLException e) {
             e.printStackTrace();
